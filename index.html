@@ -1,12 +1,314 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <title>Ritik Kumar | Portfolio</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Source+Sans+Pro:wght@300&display=swap');
+   </style>  
+   <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js" integrity="sha512-Gfrxsz93rxFuB7KSYlln3wFqBaXUc1jtt3dGCp+2jTb563qYvnUBM/GP2ZUtRC27STN/zUamFtVFAIsRFoT6/w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.css" integrity="sha512-+1GzNJIJQ0SwHimHEEDQ0jbyQuglxEdmQmKsu8KI7QkMPAnyDrL9TAnVyLPEttcTxlnLVzaQgxv2FpLCLtli0A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <script src="https://kit.fontawesome.com/241a1cab24.js" crossorigin="anonymous"></script> 
+
 </head>
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A earum eos, error, temporibus voluptatem vero at ut voluptates velit ipsa neque, iste dicta molestias excepturi in officia sint sequi odio.</p>
+   <nav class="navbar">
+      <div class="max-width">
+          <div class="logo"><a href="#">Ritik Kumar<span></span></a></div>
+          <ul class="menu">
+              <li><a href="#home" class="menu-btn">Home</a></li>
+              <li><a href="#about" class="menu-btn">About</a></li>
+              <li><a href="#skills" class="menu-btn">Skills</a></li>
+              <li><a href="#project" class="menu-btn">Projects</a></li>
+              <!-- <li><a href="#stats" class="menu-btn">Stats</a></li> -->
+              <li><a href="#contact" class="menu-btn">Contact</a></li>
+              <li><a id="resume" href="./pdf/Ritik-Kumar-Resume.pdf" target="_blank" download="Ritik-Kumar-Resume.pdf" class="menu-btn">Resume</a></li>
+          </ul>
+          <div class="menu-btn">
+              <i class="fas fa-bars"></i>
+          </div>
+      </div>
+  </nav>
+  <!-- home section -->
+  <section class="home" id="home">
+   <div class="max-width" id="homegif">
+       <div class="home-content">
+            <!-- <img src="images/somya (2).JPG" id="homeimg"> -->
+           <div class="text-1">Hello, there! I'm</div>
+           <div class="text-2">Ritik Kumar</div>
+           <div class="text-3"><span class="typing"></span></div>
+           <a id="resume2"  href="./pdf/Ritik-Kumar-Resume.pdf" target="_blank" download="Ritik-Kumar-Resume.pdf">Resume</a>
+       </div>
+       <!-- <img src="images/gifffff.gif" alt=""> -->
+   </div>
+</section>
+
+<!-- about section-->
+<section class="about" id="about">
+   <div class="max-width">
+       <h2 class="title">About me</h2>
+       <div class="about-content">
+           <div class="column left">
+               <img src="images/Ritik1.png" alt="">
+           </div>
+           <div class="column right">
+               <div class="text">I'm Ritik and I'm a <span class="typing-2"></span></div>
+               <p>Technical support representative adept at resolving complex network issues. Competent in troubleshooting network hardware issues while responding to customer support issues. Seeking a position in a professional organization to work for the betterment of the company and to foster returns.</p>
+           </div>
+       </div>
+   </div>
+</section>
+   
+   <section class="skills section" id="skills">
+    <h2 class="title">Technical Skills</h2>
+    <div class="skill_grid">
+      <div>
+        <!-- <h2 class="section_title">Technical Skills</h2>
+        <span class="section_subtitle">My technical skills</span> -->
+
+        <div class="skills__container container grid">
+          <div>
+            <div class="skills_content skills_open">
+              <div class="skills__list grid">
+                <div class="tech__row">
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="vscode-icons:file-type-html"
+                        height="90"
+                      ></iconify-icon>
+                      <h3 class="services__title">HTML<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="vscode-icons:file-type-css"
+                        height="90"
+                      ></iconify-icon>
+                      <h3 class="services__title">CSS<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="logos:javascript"
+                        height="90"
+                        width="35"
+                      ></iconify-icon>
+                      <h3 class="services__title">JavaScript<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="logos:mysql-icon"
+                        height="90"
+                        width="35"
+                      ></iconify-icon>
+                      <h3 class="services__title">MY SQL<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="skill-icons:linux-dark"
+                        height="90"
+                        width="45"
+                      ></iconify-icon>
+                      <h3 class="services__title">Linux<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="icon-park-solid:seo"
+                        height="90"
+                        width="45"
+                      ></iconify-icon>
+                      <h3 class="services__title">SEO<br /></h3>
+                    </div>
+                  </div>
+                  <!-- tools -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <!-- skills section-->
+<!-- project section-->
+<!--==================== Projects ====================-->
+  <section class="project" id="project">
+    <div class="max-width">
+      <h2 class="title">Projects</h2>
+      <!-- div -->
+      <div class="work__container bd-grid">
+        <!-- <div> -->
+        <div class="work__box">
+            <div class="right_box_work">
+                    <img class="work__img" src="images/Freshdesk.png" alt="">
+
+            </div>
+            <div class="left_box_work">
+                <div class="work_project_name">
+                    <h2 class="project-heading">Freshdesk</h2>
+                </div>
+                <p class="project-para">Freshdesk is a cloud-based help desk software that enables businesses to manage customer queries and issues through a single, unified platform.</p>
+                <p class="Tech">Features - Ticketing made easy , Support across channels</p>
+                <p class="Tech">Tech Stack : HTML | CSS | REVEAL.JS</p>
+                <p class="Tech">Area of Responsibility - Collaborative ticketing , Reporting and Analytics.</p>
+                <a style="display:inline-block;margin-right: 20px;"
+                    href="https://github.com/Ritikkumar0/Freshdesk/tree/main/reveal.js-master" target="_blank">Code<i
+                        class="fa-brands fa-github" style="display: block-inline;margin-left:5px"></i></a>
+                <a style="display:inline-block;margin-right: 20px;"
+                    href="https://gilded-axolotl-e573a7.netlify.app" target="_blank">Live<i
+                        class="fa-solid fa-square-arrow-up-right"
+                        style="display: block-inline;margin-left:5px"></i></a>
+                <div>
+                    <p class="button_tool project-para" style="font-size: 12px;margin-top: 10px;">Reveal.js
+                    </p>
+                    <p class="button_tool project-para" style="font-size: 12px;margin-top: 10px;">HTML</p>
+                    <p class="button_tool project-para" style="font-size: 12px;margin-top: 10px;">CSS</p>
+                </div>
+            </div>
+
+        </div>
+        <!-- </div> -->
+
+        <!-- <div > -->
+          <div class="work__box">
+            <div class="right_box_work">
+                    <img class="work__img" src="images/Airtable.jpg" alt="">
+
+            </div>
+            <div class="left_box_work">
+                <div class="work_project_name">
+                    <h2 class="project-heading">Airtable - Clone</h2>
+                </div>
+                <p class="project-para">Airtable is an easy-to-use Project Management application that unifies and stores data in the form of Spreadsheets and helps business teams organize and structure their data workload.</p>
+                <p class="Tech">Features - Login, Sign-up, Navbar, Footer, Product Page, Pricing Page</p>
+                <p class="Tech">Tech Stack : HTML | CSS | JAVASCRIPT</p>
+                <p class="Tech">Area of Responsibility - Login, Sign-up, Footer, Pricing Page</p>
+                <a style="display:inline-block;margin-right: 20px;"
+                    href="https://github.com/ApexSpunk/eight-club-5364" target="_blank">Code<i
+                        class="fa-brands fa-github" style="display: block-inline;margin-left:5px"></i></a>
+                <a style="display:inline-block;margin-right: 20px;"
+                    href="https://airtables.netlify.app/" target="_blank">Live<i
+                        class="fa-solid fa-square-arrow-up-right"
+                        style="display: block-inline;margin-left:5px"></i></a>
+                <div>
+                    <p class="button_tool project-para" style="font-size: 12px;margin-top: 10px;">Java-Script
+                    </p>
+                    <p class="button_tool project-para" style="font-size: 12px;margin-top: 10px;">HTML</p>
+                    <p class="button_tool project-para" style="font-size: 12px;margin-top: 10px;">CSS</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+  </section>
+      <!-- Github Stats section-->
+      <!-- <section style="background-color: black; color: white;" class="services" id="stats">
+        <div class="max-width">
+            <h2 class="title">GitHub Statistics</h2>
+            <div id="gitstat1">
+              <div>
+                  <img src="https://github-readme-stats.vercel.app/api?username=Ritikkumar0&show_icons=true&theme=tokyonight" alt="">
+              </div>
+              <div>
+                  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ritikkumar0&theme=tokyonight" alt="">
+              </div>
+            </div>
+            <div class="calendar">
+              <img style="display: block; margin: auto; margin-top: 40px; width: 100%;" src="https://ghchart.rshah.org/Ritikkumar0" alt="atrisomya's Github chart" />
+            </div>
+      </div>      
+    </section> -->
+   <!-- contact section-->
+   <section class="contact" id="contact">
+      <div class="max-width">
+          <h2 class="title">Contact me</h2>
+          <div class="contact-content">
+              <div class="column left">
+                  <!-- <div class="text">Get in Touch</div> -->
+                  <div class="icons">
+                      <div class="row">
+                          <a href=" mailto:ritikkumars782@gmail.com">   <i class="fas fa-envelope"></i> </a>
+                          <div class="info">
+                              <div class="head"></div>
+                              <div class="sub-title">  <a href="mailto:ritikkumars782@gmail.com"> ritikkumars782@gmail.com </a> </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                           <a href="https://www.linkedin.com/in/ritik-kumar10938543/" target="_blank"> <i class="fab fa-linkedin"></i> </a>
+                          <div class="info">
+                              <div class="sub-title">  <a href="https://www.linkedin.com/in/ritik-kumar10938543/" target="_blank">Linkedin</a> </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                           <a href="https://github.com/Ritikkumar0" target="_blank"> <i class="fab fa-github"></i> </a>
+                          <div class="info">
+                              <div class="sub-title"> <a href="https://github.com/Ritikkumar0" target="_blank" >GitHub</a> </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                        <a href="tel:8285274303"> <i class="fa-solid fa-phone"></i> </a>
+                       <div class="info">
+                           <div class="sub-title"> <a href="tel:8285274303">+91 8285274303</a> </div>
+                       </div>
+                   </div>
+
+                      
+
+                  </div>
+              </div>
+              <!-- <div class="column right">
+                  <div class="text">Message me</div>
+                  <form action="#">
+                      <div class="fields">
+                          <div class="field name">
+                              <input type="text" placeholder="Name" required>
+                          </div>
+                          <div class="field email">
+                              <input type="email" placeholder="Email" required>
+                          </div>
+                      </div>
+                      <div class="field">
+                          <input type="text" placeholder="Subject" required>
+                      </div>
+                      <div class="field textarea">
+                          <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                      </div>
+                      <div class="button-area">
+                          <button type="submit">Send message</button>
+                      </div>
+                  </form>
+              </div> -->
+          </div>
+      </div>
+  </section>
+
+   <!-- footer section-->
+   <footer>
+      <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

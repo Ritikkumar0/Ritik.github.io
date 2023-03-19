@@ -6,7 +6,7 @@ $(document).ready(function () {
       } else {
         $(".navbar").removeClass("sticky");
       }
-         //scroll-up button show/hide 
+         //scroll-up button show/hide/ 
     if (this.scrollY > 500) {
         $(".scroll-up-btn").addClass("show");
       } else {
@@ -66,19 +66,19 @@ $(document).ready(function() {
 });
 
 // typing text animation 
-var typed = new Typed(".typing", {
-    strings: ["TECHNICAL SUPPORT ENGINEER"],
-    typeSpeed: 100,
-    backSpeed: 90,
-    loop: true,
-  });
+// var typed = new Typed(".typing", {
+//     strings: ["TECHNICAL SUPPORT ENGINEER"],
+//     typeSpeed: 100,
+//     backSpeed: 90,
+//     loop: true,
+//   });
 
-  var typed = new Typed(".typing-2", {
-    strings: ["TECHNICAL SUPPORT ENGINEER"],
-    typeSpeed: 100,
-    backSpeed: 60,
-    loop: true,
-  });
+  // var typed = new Typed(".typing-2", {
+  //   strings: ["TECHNICAL SUPPORT ENGINEER"],
+  //   typeSpeed: 100,
+  //   backSpeed: 60,
+  //   loop: true,
+  // });
 
 
   document.getElementById('resume').addEventListener('click', (e) => {

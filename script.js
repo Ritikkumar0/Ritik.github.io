@@ -65,22 +65,6 @@ $(document).ready(function() {
   }); 
 });
 
-// typing text animation 
-// var typed = new Typed(".typing", {
-//     strings: ["TECHNICAL SUPPORT ENGINEER"],
-//     typeSpeed: 100,
-//     backSpeed: 90,
-//     loop: true,
-//   });
-
-  // var typed = new Typed(".typing-2", {
-  //   strings: ["TECHNICAL SUPPORT ENGINEER"],
-  //   typeSpeed: 100,
-  //   backSpeed: 60,
-  //   loop: true,
-  // });
-
-
   document.getElementById('resume').addEventListener('click', (e) => {
     window.open("https://drive.google.com/file/d/1gHnTG9ulbs50UYMcPWRwuqcooPtS1h_7/view?usp=share_linkle/d/1zNs5p_fSuewthjtj2X001pauDclCCbkI/view?usp=sharing", "_blank");
   })
